@@ -1,0 +1,26 @@
+vote1
+SELECT COUNT(vote1)FROM vote WHERE vote1='1';
+SELECT COUNT(vote1)FROM vote WHERE vote1='2';
+SELECT COUNT(vote1)FROM vote WHERE vote1='3';
+SELECT COUNT(vote1)FROM vote WHERE vote1='4';
+SELECT COUNT(vote1)FROM vote WHERE vote1='5';
+
+vote2
+SELECT COUNT(vote2)FROM vote WHERE vote2='1';
+SELECT COUNT(vote2)FROM vote WHERE vote2='2';
+SELECT COUNT(vote2)FROM vote WHERE vote2='3';
+SELECT COUNT(vote2)FROM vote WHERE vote2='4';
+SELECT COUNT(vote2)FROM vote WHERE vote2='5';
+
+vote3
+SELECT COUNT(vote3)FROM vote WHERE vote3='1';
+SELECT COUNT(vote3)FROM vote WHERE vote3='2';
+SELECT COUNT(vote3)FROM vote WHERE vote3='3';
+SELECT COUNT(vote3)FROM vote WHERE vote3='4';
+SELECT COUNT(vote3)FROM vote WHERE vote3='5';
+
+vote old
+SELECT COUNT(nic)FROM vote;
+
+link\
+file:///C:/xampp/htdocs/LK.html

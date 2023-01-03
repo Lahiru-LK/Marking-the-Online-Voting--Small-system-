@@ -1,0 +1,252 @@
+﻿<html>
+<head><meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title> styling html tables w/ css </title>
+	<link rel="shortcut icon" href="/assets/favicon.ico">
+	<link rel="stylesheet" href="/assets/dcode.css">
+	<meta name="viemport" content="widh-device,initial-scale=1.0">
+	<link rel="stylesheet" href="style5.css">
+	<link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="ml.css">
+	<meta charset="UTF-8"/>
+	<meta name="viewport"
+		  content="width=deviece-width, initial-scale.0"/>
+	<meta http-equiv="x-ua-compatible"
+		  content="ie=edge"/>
+	<link href="https://fonts.googleapis.com/css? family=josef in+slab" rel="stylesheet"/>
+	<link rel="stylesheet" href="style.css"/>
+
+	<script type="text/javascript">
+		function go(argument) {
+			document.getElementById("gota").style.visibility = 'hidden';
+			var x = document.createElement("p");
+			var t = document.createTextNode("ගෝඨභය රාජපක්ෂ ");
+			x.appendChild(t);
+			document.body.appendChild(x);
+
+			l = document.getElementById("txt");
+			d = document.getElementById("txt").value;
+			l.setAttribute("value", d + "1" + "~");
+		}
+
+		function sa(argument) {
+			document.getElementById("sajith").style.visibility = 'hidden';
+			var x = document.createElement("p");
+			var t = document.createTextNode("සජිත් ප්‍රේමදස ");
+			x.appendChild(t);
+			document.body.appendChild(x);
+
+			l = document.getElementById("txt");
+			d = document.getElementById("txt").value;
+			l.setAttribute("value", d + "2" + "~");
+		}
+
+		function an(argument) {
+			document.getElementById("anura").style.visibility = 'hidden';
+			var x = document.createElement("p");
+			var t = document.createTextNode("අනුර කුමර දිසනයක ");
+			x.appendChild(t);
+			document.body.appendChild(x);
+
+			l = document.getElementById("txt");
+			d = document.getElementById("txt").value;
+			l.setAttribute("value", d + "3" + "~");
+		}
+
+		function ra(argument) {
+			document.getElementById("ranil").style.visibility = 'hidden';
+			var x = document.createElement("p");
+			var t = document.createTextNode("රනිල් වික්‍රමසිංහ ");
+			x.appendChild(t);
+			document.body.appendChild(x);
+
+			l = document.getElementById("txt");
+			d = document.getElementById("txt").value;
+			l.setAttribute("value", d + "4" + "~");
+		}
+
+		function si(argument) {
+			document.getElementById("sirisena").style.visibility = 'hidden';
+			var x = document.createElement("p");
+			var t = document.createTextNode("මෛත්‍රිපාල සිරිසේන");
+			x.appendChild(t);
+			document.body.appendChild(x);
+
+			l = document.getElementById("txt");
+			d = document.getElementById("txt").value;
+			l.setAttribute("value", d + "5" + "~");
+		}
+	</script>
+
+	<style>
+
+		.content-table{
+
+			border-collapse:collapse ;
+			margin:25px 0;
+			font-size:0.9cm ;
+			min-width:500px ;
+			border-radius: 10px 10px 0 0;
+			overflow: hidden;
+			box-shadow:0 0 20px rgba(0.0.0.0.15);
+		}
+
+		.content-table thead tr{
+			background-color:#009879;
+			color:#ffffff;
+			text-align:left;
+			font-weight: bold;
+		}
+		.content-table th,
+		.content-table td{
+			padding: 12px 15px;
+		}
+		.content-table tbody tr{
+			border-bottom: 1px solid #dddddd;
+		}
+
+		.content-table tbody tr:nth-of-type(even){
+			background-color: #f3f3f3;
+		}
+		.content-table tbody tr:last-of-type{
+			border-bottom:2px solid #009879;
+		}
+		.content-table tbody tr.active-row
+		{
+			font-weight:;
+			color: #009879;
+		}
+
+		input[type=text]{
+			width: 45%;
+			border: 5px solid deepskyblue;
+			border-radius: 40px;
+			margin: 10px;
+			outline: none;
+			padding: 20px;
+			box-sizing: border-box;
+
+
+		}
+
+
+
+		input[type=text]:focus{
+
+			border-color: dodgerblue;
+			box-shadow:0 0 30px 0 dodgerblue ;
+		}
+
+
+
+	</style>
+</head>
+<body><center>
+<form  action="db.php" method="post">
+
+	ඔබගේ හදුනා ගනිමේ අංකය <input type="text"name="ele" placeholder="අංක පමණි" maxlength="5">
+
+<table style="width: 1080px;" border="" class="content-table">
+	<thead>
+		<tr>
+			<td><center> අපේක්ශක නාමය </center></td>
+			<td style="height: 27.8px"><center>අපේක්ශක සළකුණ</center> </td>
+			<td><center>සලකුනු කිරිම</center> </td>
+
+		</tr>
+	</thead>
+			<tr id="gota">
+				<td><center>ගෝඨාභය රාජපක්ෂ</center> </td>
+				<td style="width: 186.383px; height: 173.5px;"><center><img src="SlpjpLogo.jpg" style="width: 186.383px; height: 173.5px;" ></center></td>
+			<td ><div class="wrapper">
+				<div class="option">
+					<input type="radio" id="check1"  name="1stmanapa" value="1" onclick="go();"/><br>
+					<label for="check1">ඡන්දය </label>
+				</div>
+			</div>
+			</td>
+
+			 </tr>
+         
+				<tr id="sajith" class="active-row">
+					<td><center>සජිත් ප්‍රේමදාස </center>  </td>
+					<td style="width: 186.383px; height: 173.5px;"><center><img src="New_Democratic_Front_logo.png" style="width: 186.383px; height: 173.5px;" ></center></td>
+				<td><div class="wrapper">
+					<div class="option">
+						<input type="radio" id="check2"  name="1stmanapa" value="1" onclick="sa();"/><br>
+						<label for="check2">ඡන්දය </label>
+					</div>
+				</div>
+				</td>
+
+				</tr>
+          
+          
+					<tr id="anura">
+						<td><center>අනුර කුමර දිසනයක </center></td>
+					<td style="width: 186.383px; height: 173.5px;"><center><img src="malimawa.png" ></center></td>
+					<td><div class="wrapper">
+						<div class="option">
+							<input type="radio" id="check3" name="1stmanapa" value="1" onclick="an();"/><br>
+							<label for="check3">ඡන්දය </label>
+						</div>
+					</div>
+					</td>
+
+					</tr>
+						 
+
+						<tr id="ranil" class="active-row">
+							<td><center>රනිල් වික්‍රමසිංහ</center></td>
+						<td style="width: 186.383px; height: 173.5px;"><center><img src="aliya.png" style="width: 186.383px; height: 173.5px;" ></center></td>
+						<td><div class="wrapper">
+							<div class="option">
+								<input type="radio" id="check4" name="1stmanapa" value="1" onclick="ra();"><br>
+								<label for="check4">ඡන්දය </label>
+							</div>
+						</div>
+						</td>
+
+						</tr>
+						
+							<tr id="sirisena">
+								<td><center>මෛත්‍රිපාල සිරිසේන </center></td>
+								<td style="width: 186.383px; height: 173.5px;"><center><img src="1000.jpg" style="width: 186.383px; height: 173.5px;"></center></td>
+							<td><div class="wrapper">
+								<div class="option">
+									<input type="radio" id="check5" name="1stmanapa" value="1" onclick="si();"><br>
+									<label for="check5">ඡන්දය </label>
+								</div>
+							</div>
+							</td>
+
+							</tr>
+
+
+							<tr class="active-row">
+							<td style="width: 400px; height: 173.5px;" colspan="2">
+								<div class="login-box">
+								<input class="submit" type="submit" name="" value="ස්තිර කිරිම">
+								</div>
+							</td>
+
+								<td>
+									<div class="link">
+										<a href='index.htm'>නැවත උත්සහා කිරිම</a>
+									</div>
+								</td>
+
+							</tr>
+
+							<input type="hidden" name="txt" id="txt" >
+
+
+
+
+				
+     </table>
+	 </form>
+</center>
+<h3> <center> <b> <i>මනාප අනුපිලිවෙල</i> </b> </center></h3>
+<p id="p"><center></center></p>
+</body>
+</html>

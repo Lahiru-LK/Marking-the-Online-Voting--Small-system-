@@ -1,0 +1,13 @@
+
+
+
+.submit{
+    width: 100%;
+    background: none;
+    border: 10px solid #4caf50;
+    color: black;
+    padding: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 12px 0;
+}
